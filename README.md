@@ -1,7 +1,5 @@
-# Desafio de Projeto sobre Git/GitHub da DIO
+![](src/img/logoDioSantanderBootcamp.png)
 
-Repositório criado para o Desafio do Projeto.
+# DIO Santander Bootcamp 2022
 
-## Links Úteis
-
-[Sintaxe Basica Markdown] (https://www.markdownguide.org/basic-syntax/)
+Repositório criado para organizar todo conteudo estudado durante o curso
