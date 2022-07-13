@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align items</title>
+    <style>
+
+        .caixa{
+            background-color: green;
+            border: 1px solid black;
+            text-align: center;
+            color: white;
+        }
+
+        .container{
+            height: 400px;
+            max-width: 300px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+
+        .item{
+            background-color: brown;
+            padding: 0 5px;
+            margin: 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+        }
+
+        .stretch{
+            align-content: stretch;
+        }
+
+        .center{
+            align-content: center;
+        }
+
+        .flex-start{
+            align-content: flex-start;
+        }
+
+        .flex-end{
+            align-content: flex-end;
+        }
+
+        .space-around{
+            align-content: space-around;
+        }
+
+        .space-between{
+            align-content: space-between;
+        }
+
+    </style>
+</head>
+<body>
+    <br>
+    <div class="caixa">
+        <h1>ROW</h1>
+    </div>
+    <br>
+
+    <h1>stretch</h1>
+    <div class="container stretch">
+        <div class="item">Uva</div>
+        <div class="item">Abacate</div>
+        <div class="item">Pera</div>
+        <div class="item">Laranja</div>
+        <div class="item">Limão</div>
+        <div class="item">Banana</div>
+        <div class="item">Kiwi</div>
+    </div>
+    
+    <h1>center</h1>
+    <div class="container center">
+        <div class="item">Uva</div>
+        <div class="item">Abacate</div>
+        <div class="item">Pera</div>
+        <div class="item">Laranja</div>
+        <div class="item">Limão</div>
+        <div class="item">Banana</div>
+        <div class="item">Kiwi</div>
+    </div>
+
+    <h1>flex-start</h1>
+    <div class="container flex-start">
+        <div class="item">Uva</div>
+        <div class="item">Abacate</div>
+        <div class="item">Pera</div>
+        <div class="item">Laranja</div>
+        <div class="item">Limão</div>
+        <div class="item">Banana</div>
+        <div class="item">Kiwi</div>
+    </div>
+
+    <h1>flex-end</h1>
+    <div class="container flex-end">
+        <div class="item">Uva</div>
+        <div class="item">Abacate</div>
+        <div class="item">Pera</div>
+        <div class="item">Laranja</div>
+        <div class="item">Limão</div>
+        <div class="item">Banana</div>
+        <div class="item">Kiwi</div>
+    </div>
+
+    <h1>space-around</h1>
+    <div class="container space-around">
+        <div class="item">Uva</div>
+        <div class="item">Abacate</div>
+        <div class="item">Pera</div>
+        <div class="item">Laranja</div>
+        <div class="item">Limão</div>
+        <div class="item">Banana</div>
+        <div class="item">Kiwi</div>
+    </div>
+
+    <h1>space-between</h1>
+    <div class="container space-between">
+        <div class="item">Uva</div>
+        <div class="item">Abacate</div>
+        <div class="item">Pera</div>
+        <div class="item">Laranja</div>
+        <div class="item">Limão</div>
+        <div class="item">Banana</div>
+        <div class="item">Kiwi</div>
+    </div>
+
+</body>
+</html>
