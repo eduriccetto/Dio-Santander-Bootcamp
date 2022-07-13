@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align items</title>
+    <style>
+
+        .caixa{
+            background-color: green;
+            border: 1px solid black;
+            text-align: center;
+            color: white;
+        }
+
+        .container{
+            max-width: 350px;
+            border: 1px solid black;
+            display: flex;
+        }
+
+        .item{
+            background-color: blueviolet;
+            margin: 5px;
+            color: white;
+            text-align: center;
+            flex: 1;
+        }
+
+        .flex{
+            flex: 1;
+        }
+
+        .center{
+            align-items: center;
+        }
+
+        .strecth{
+            align-items: stretch;
+        }
+
+        .flex-start{
+            align-items: flex-start;
+        }
+
+        .flex-end{
+            align-items: flex-end;
+        }
+
+        .baseline{
+            align-items: baseline;
+        }
+
+        .column{
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <div>
+        <h1 class="caixa">ROW</h1>
+    </div>
+    <br>
+
+    <h1>Center</h1>
+    <section class="container center flex">
+        <div class="item">item 1</div>
+        <div class="item">item 2, blabla bla</div>
+        <div class="item">item 3</div>
+
+    </section>
+
+    <h1>Strecth</h1>
+    <section class="container strecth flex">
+        <div class="item">item 1</div>
+        <div class="item">item 2, blabla bla</div>
+        <div class="item">item 3 bvcjkabvjkibd jkabj</div>
+
+    </section>
+
+    <h1>Flex-start</h1>
+    <section class="container flex-start flex">
+        <div class="item">item 1</div>
+        <div class="item">item 2, blabla bla</div>
+        <div class="item">item 3 bvcjkabvjkibd jkabj</div>
+
+    </section>
+
+    <h1>Flex-end</h1>
+    <section class="container flex-end flex">
+        <div class="item">item 1</div>
+        <div class="item">item 2, blabla bla</div>
+        <div class="item">item 3 bvcjkabvjkibd jkabj</div>
+
+    </section>
+
+    <h1>Baseline</h1>
+    <section class="container baseline flex">
+        <div class="item">item 1</div>
+        <div class="item">item 2, blabla bla</div>
+        <div class="item">item 3 bvcjkabvjkibd jkabj</div>
+
+    </section>
+
+    <br>
+    <div>
+        <h1 class="caixa">COLUMN</h1>
+    </div>
+    <br>
+
+    <h1>Flex-start (column)</h1>
+    <section class="container flex-start column">
+        <div class="item">item 1</div>
+        <div class="item">item 2, blabla bla</div>
+        <div class="item">item 3 bvcjkabvjkibd jkabj</div>
+
+    </section>
+
+    <h1>Flex-end (column)</h1>
+    <section class="container flex-end column">
+        <div class="item">item 1</div>
+        <div class="item">item 2, blabla bla</div>
+        <div class="item">item 3 bvcjkabvjkibd jkabj</div>
+
+    </section>
+
+    <h1>Center (column)</h1>
+    <section class="container center column">
+        <div class="item">item 1</div>
+        <div class="item">item 2, blabla bla</div>
+        <div class="item">item 3</div>
+
+    </section>
+
+    <h1>Strecth (column)</h1>
+    <section class="container strecth column">
+        <div class="item">item 1</div>
+        <div class="item">item 2, blabla bla</div>
+        <div class="item">item 3 bvcjkabvjkibd jkabj</div>
+
+    </section>
+
+    <h1>Baseline (column)</h1>
+    <section class="container baseline column">
+        <div class="item">item 1</div>
+        <div class="item">item 2, blabla bla</div>
+        <div class="item">item 3 bvcjkabvjkibd jkabj</div>
+        
+    </section>
+
+</body>
+</html>
