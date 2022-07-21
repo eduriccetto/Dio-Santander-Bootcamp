@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Order</title>
+    <style>
+        .flex-container{
+            display: flex;
+            max-width: 300px;
+            border: 1px solid black;
+            margin-bottom: 20px;
+        }
+
+        .item{
+            flex: 1;
+            background-color: blue;
+            color: white;
+            text-align: center;
+            font-size: 32px;
+            margin: 5px;
+        }
+
+        .o1{
+            order: 1;
+        }
+
+        .o2{
+            order: 2;
+        }
+
+        .o3{
+            order: 3;
+        }
+
+        .o4{
+            order: 4;
+        }
+        /*Order serve para determinar a order das posições*/
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="item o4">A</div>
+        <div class="item o2">B</div>
+        <div class="item o1">C</div>
+        <div class="item o3">D</div>
+    </div>
+</body>
+</html>
