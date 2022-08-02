@@ -1,5 +1,5 @@
 # Projeto Landing Page Instagram
 
-![](img/finish.png)
+![](img/finish2.png)
 
 ### Finish
