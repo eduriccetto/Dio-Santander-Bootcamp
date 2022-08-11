@@ -1,0 +1,98 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: mediumseagreen;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: darkgreen;
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+}
+
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: darkgreen;
+    border: 1px solid white;
+    width: 90%;
+    height: 700px;
+    margin-top: 50px;
+}
+
+.caixaImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: mediumseagreen;
+    border: 1px solid white;
+    width: 38%;
+    height: 610px;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.imgRickAndMorty {
+    width: 600px;
+}
+
+.caixaInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: mediumseagreen;
+    border: 1px solid white;
+    width: 45%;
+    height: 610px;
+    margin-top: 10px;
+}
+
+.logoRickAndMorty {
+    width: 60%;
+    margin-bottom: 15px;
+}
+
+.textInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: darkgreen;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: darkgreen;
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.textFooter {
+    font-size: 14px;
+    margin-bottom: 50px;
+}
